@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta name="description" content="Marketing email for tech shop">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tech Shop Emaik</title>
+    <style>
+        @media screen and (min-width: 600px) {
+            .wrapper {
+                width: 100%;
+            }
+            .container {
+                width: 100%;
+                max-width: 600px !important;
+            }
+        }
+    </style>
 </head>
 <body style="padding: 0;margin: 0;"> 
  <!-- start html email -->
- <table style="width: 100%;">
+ <table class="wrapper">
     <!-- start header section --> 
     <tr style="background-color: #5581C9;height: 70px;">
          <td>
@@ -21,7 +33,7 @@
      <!-- start content  email section -->
      <tr>
          <td>
-             <table style="max-width: 600px;margin: 0 auto;width: 100%; padding: 0;">
+             <table class="container" style="margin: 0 auto;width: 100%; padding: 0;">
                 <!-- start email nav section -->
                 <tr style="padding: 0;margin: 0;">
                     <td style="width: 100%;text-align: center;">
@@ -140,27 +152,25 @@
                 <!-- start footer section -->
                 <tr>
                     <td>
-                        <table style="width: 60%;margin: 70px auto 10px auto;padding:0;">
+                        <table style="width: 60%;margin: 70px auto 30px auto;padding:0;border: 1px solid red;text-align: center;">
                             <tr>
                                 <td><a href="https://sr-rs.facebook.com" target="_blank" style="cursor: pointer;"><img src="images/icons/facebook 1.svg" alt="facebook"></a></td>
                                 <td><a href="https://twitter.com/?lang=sr" target="_blank" style="cursor: pointer;"><img src="images/icons/twiter.svg" alt="twiter"></a></td>
                                 <td><a href="https://www.instagram.com/?hl=sr" target="_blank" style="cursor: pointer;"><img src="images/icons/instagram 1.svg" alt="instagram"></a></td>
                                 <td><a href="https://www.linkedin.com/" target="_blank" style="cursor: pointer;"><img src="images/icons/linkedin 1.svg" alt="linkedin"></a></td>
                             </tr>
+                        </table>
+                        <table style="margin: 0 auto 50px auto;padding: 0; border: 1px solid red;">
                             <tr>
-                               <table style="margin: 0 auto 50px auto;padding: 0;">
-                                   <tr>
-                                    <td>
-                                        <a href="#" style="color: #5581C9;font-weight: 500;font-family: 'Montserrat', sans-serif;font-size: 14px;">unsubscribe</a>
-                                    </td>
-                                    <td style="padding: 0 10px 0 10px; color: #5581C9;">
-                                        |
-                                    </td>
-                                    <td>
-                                        <a href="#" style="color: #5581C9;font-weight: 500;font-family: 'Montserrat', sans-serif;font-size: 14px;">contact suport</a>
-                                    </td>
-                                   </tr>
-                               </table>
+                             <td>
+                                 <a href="#" style="color: #5581C9;font-weight: 500;font-family: 'Montserrat', sans-serif;font-size: 14px;">unsubscribe</a>
+                             </td>
+                             <td style="padding: 0 10px 0 10px; color: #5581C9;">
+                                 |
+                             </td>
+                             <td>
+                                 <a href="#" style="color: #5581C9;font-weight: 500;font-family: 'Montserrat', sans-serif;font-size: 14px;">contact suport</a>
+                             </td>
                             </tr>
                         </table>
                     </td>
